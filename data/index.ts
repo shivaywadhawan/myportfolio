@@ -1,14 +1,14 @@
 export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
-  { name: "Testimonials", link: "#testimonials" },
-  { name: "Contact", link: "#contact" },
+  { name: "Work Experience", link: "#experience" },
+  { name: "Resume", link: "#resume" },
 ];
 
 export const gridItems = [
   {
     id: 1,
-    title: "I prioritize client collaboration, fostering open communication ",
+    title: "I prioritize collaboration, fostering open communication ",
     description: "",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
@@ -49,7 +49,7 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently building a JS Animation library",
+    title: "Currently learning TensorFlow",
     description: "The Inside Scoop",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -59,7 +59,7 @@ export const gridItems = [
   },
   {
     id: 6,
-    title: "Do you want to start a project together?",
+    title: "Reach out to me via Email",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
@@ -72,130 +72,113 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-    img: "/p1.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "/ui.earth.com",
+    title: "VillageLink",
+    des: "A web application that makes it simpler and easier to make new friends on campus, with the help of pins that help you find out where and when people are hanging out, in real time. Using the application to meet new people will grow your village, consisting of a collection of the people you have met up with along the way.",
+    img: "/villageLink.png",
+    iconLists: [
+      "/re.svg",
+      "/tail.svg",
+      "/ts.svg",
+      "/pouchdb.svg",
+      "/postman.svg",
+    ],
+    link: "https://villagelink.fly.dev/#login",
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "/p2.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "/ui.yoom.com",
+    title: "Horizon",
+    des: "A modern banking platform for everyone with Plaid integration.",
+    img: "/horizon.png",
+    iconLists: [
+      "/next.svg",
+      "/tail.svg",
+      "/ts.svg",
+      "/appwritelogo.svg",
+      "/dwolla.svg",
+      "/plaid.jpeg",
+    ],
+    link: "https://banking-vertex.vercel.app/",
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/p3.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "/ui.aiimg.com",
+    title: "Fall-Detection",
+    des: "Detecting sudden fall using an ESP32-S3 microcontroller that reads from an MPU6050 IMU",
+    img: "/falldetection.png",
+    iconLists: ["c+.svg", "/circuitpy.svg", "/supabase.svg", "/arduino.svg"],
+    link: "https://github.com/shivaywadhawan/Fall-Detection",
   },
   {
     id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "/ui.apple.com",
+    title: "Natural Language Processing",
+    des: "Search engine evaluation and algorithms like page ranking, query indexing, clustering performed using python",
+    img: "/nlp.png",
+    iconLists: ["/python.svg"],
+    link: "https://github.com/shivaywadhawan/Search-Engines",
   },
 ];
 
-export const testimonials = [
+export const description = [
   {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+    quote: `• Collaborated with the software development team on projects, tasked with translating UI designs provided in Figma into functional web interfaces using React and Material UI. 
+    \n• Conducted full lifecycle development, including programming, testing, packaging, deploying, and maintaining service and infrastructure components.
+    `,
+    name: "Freecharge",
+    title: "Software Developer Intern",
+    src: "/freecharge.png",
   },
   {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+    quote: `• Created mock-up & wireframe designs to target assigned tasks before starting to write code for the development phase using Figma.
+    \n• Managed version control systems using Git, regularly committing, and pushing code updates to the main repository as the website progressed from initial stages to completion.`,
+    name: "Fabhotels",
+    title: "Front-End Developer Intern",
+    src: "/fabhotels.png",
   },
   {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+    quote: `• Designed and developed automated Unit Tests, Component Tests, and Scenario Tests to ensure the quality, functionality, and alignment with design specifications during the developmental phases.
+    \n• Managed version control systems using Bitbucket, regularly committing and pushing code updates to the main repository as the website progressed from initial stages to completion.
+   `,
+    name: "Freecharge",
+    title: "Software Developer Intern",
+    src: "/freecharge.png",
   },
   {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-];
-
-export const companies = [
-  {
-    id: 1,
-    name: "cloudinary",
-    img: "/cloud.svg",
-    nameImg: "/cloudName.svg",
-  },
-  {
-    id: 2,
-    name: "appwrite",
-    img: "/app.svg",
-    nameImg: "/appName.svg",
-  },
-  {
-    id: 3,
-    name: "HOSTINGER",
-    img: "/host.svg",
-    nameImg: "/hostName.svg",
-  },
-  {
-    id: 4,
-    name: "stream",
-    img: "/s.svg",
-    nameImg: "/streamName.svg",
-  },
-  {
-    id: 5,
-    name: "docker.",
-    img: "/dock.svg",
-    nameImg: "/dockerName.svg",
+    quote: `• Created accessible web front-end user interface for new or existing databases with a combination of HTML, SQL, JavaScript (React.js), and CSS(Bootstrap).
+    \n• Implemented CRUD operations using Web API and tested API calls using Postman
+     \n• Implemented various screens for the front-end using ReactJS and used various predefined components from Node Package Manager and Redux library
+    `,
+    name: "Snapstore.com",
+    title: "Front-End Developer Intern",
+    src: "/snapstore.png",
   },
 ];
 
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    title: "Software Developer Intern",
+    desc: "Axis Bank Pvt Ltd - Freecharge | June - Aug 2023",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
-    className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp2.svg",
-  },
-  {
-    id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+    title: "Freelance Front-End Developer",
+    desc: "Fabhotels | July - August 2023",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp3.svg",
   },
   {
+    id: 3,
+    title: "Front-End Developer Intern",
+    desc: "Snapstore.com | June - Aug 2020",
+    className: "md:col-span-2", // change to md:col-span-2
+    thumbnail: "/exp2.svg",
+  },
+
+  {
     id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
+    title: "Bachelor of Science(B.S) - Computer Science",
+    desc: "University of Massachusetts, Amherst | May 2024",
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",
   },
@@ -205,13 +188,11 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
-  },
-  {
-    id: 2,
-    img: "/twit.svg",
+    url: "https://github.com/shivaywadhawan",
   },
   {
     id: 3,
     img: "/link.svg",
+    url: "https://www.linkedin.com/in/shivay-wadhawan/",
   },
 ];
