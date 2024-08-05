@@ -15,7 +15,7 @@ const Footer = () => {
           Click below to download a pdf version of my resume.
         </p>
         <a
-          href="./shivay-wadhawan-resume.pdf"
+          href="./Shivay-wadhawan-resume.pdf"
           download="ShivayWadhawanResume.pdf"
         >
           <MagicButton
